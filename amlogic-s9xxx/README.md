@@ -1,7 +1,5 @@
 # 目录说明
 
-查看英文说明 | [View English description](README.md)
-
 在相关目录中存储了一些与 Amlogic s9xxx 内核相关的编译 OpenWrt 所需的文件。
 
 ## common-files
