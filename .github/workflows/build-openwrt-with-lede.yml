@@ -36,10 +36,10 @@ on:
       openwrt_kernel:
         description: "Select kernel version"
         required: false
-        default: "5.10.135_5.15.50"
+        default: "5.4.210_5.10.135_5.15.50_5.19.1"
         type: choice
         options:
-          - 5.4.210_5.10.135_5.15.50
+          - 5.4.210_5.10.135_5.15.50_5.19.1
           - 5.4.210_5.10.135
           - 5.10.135_5.15.50
           - 5.15.50_5.19.1
@@ -149,7 +149,7 @@ jobs:
         uses: ncipollo/release-action@main
         if: env.PACKAGED_STATUS == 'success' && !cancelled()
         with:
-          tag: OpenWrt_Aml_lede ${{ env.PACKAGED_OUTPUTDATE }}
+          tag: OpenWrt_Aml_lede_${{ env.PACKAGED_OUTPUTDATE }}
           artifacts: ${{ env.PACKAGED_OUTPUTPATH }}/*
           allowUpdates: true
           token: ${{ secrets.workflow_token }}
