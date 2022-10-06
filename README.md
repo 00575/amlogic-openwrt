@@ -84,7 +84,7 @@ openwrt-ddbr
 openwrt-led
 ```
 
-根据 [LED 屏显示控制说明](https://github.com/0057/amlogic-armbian/blob/main/build-armbian/armbian-docs/led_screen_display_control.md) 进行调试。
+根据 [LED 屏显示控制说明] 进行调试。
 
 - ### 更多使用说明
 
@@ -94,7 +94,7 @@ openwrt-led
 
 你可以通过修改 `router-config` 目录的相关个性化固件配置文件，以及 `.yml` 文件, 自定义和编译适合你的 OpenWrt 固件,  固件可以上传至 github.com 的 `Actions` 和 `Releases` 等处.
 
-1. 你可以在 [router-config](https://github.com/00575/amlogic-openwrt/tree/main/router-config/README.cn.md) 中查看个性化固件配置说明。编译流程控制文件是 [.yml](https://github.com/00575/amlogic-openwrt/blob/main/.github/workflows/build-openwrt-with-lede.yml)
+1. 你可以在 [router-config] 中查看个性化固件配置说明。编译流程控制文件是 [.yml]
 2. 全新编译：在 github.com 的 [Action](https://github.com/00575gic-openwrt/actions) 选择 ***`Build OpenWrt`*** . 点击 ***`Run workflow`*** 按钮进行固件一站式编译和打包。
 3. 再次编译：如果 [Releases](https://github.com/00575/amlogic-openwrt/releases) 中有已经编译好的 `openwrt-armvirt-64-default-rootfs.tar.gz` 文件，你只是想再次制作其他不同 soc 的盒子，可以跳过 OpenWrt 源文件的编译，直接进行二次制作。在 [Actions](https://github.com/00575/amlogic-openwrt/actions) 页面中选择  ***`Use Releases file to Packaging`*** ，点击 ***`Run workflow`*** 按钮即可二次编译。
 4. 更多支持：编译好的 `openwrt-armvirt-64-default-rootfs.tar.gz` 文件是制作各种不同 SoC 固件的通用文件，也适用于使用 [unifreq](https://github.com/unifreq/openwrt_packit) 的打包脚本制作 OpenWrt 固件。他作为在盒子里使用 OpenWrt 和 Armbian 系统的开创者，对更多的设备进行了支持，如在 [Armbian](https://github.com/ophub/amlogic-s9xxx-armbian) 系统中通过 `KVM` 虚拟机使用的 OpenWrt（[qemu 版](https://github.com/unifreq/openwrt_packit/blob/master/files/qemu-aarch64/qemu-aarch64-readme.md)）、Allwinner (`微加云`)、Rockchip (`贝壳云`、`我家云`)，以及 Amlogic 系列等。打包方法详见他的仓库说明，在 Actions 中通过 [packaging-openwrt-for-qemu-etc.yml](.github/workflows/packaging-openwrt-for-qemu-etc.yml) 可以调用他的打包脚本制作更多固件。
