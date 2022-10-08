@@ -9,7 +9,6 @@
 # Uncomment a feed source
 # sed -i 's/#src-git helloworld/src-git helloworld/g' ./feeds.conf.default
 # sed -i 's/\"#src-git\"/\"src-git\"/g' feeds.conf.default
-echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
 # Add a feed source
 # sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
@@ -19,5 +18,3 @@ git clone https://github.com/jerrykuku/luci-app-ttnode.git package/lean/luci-app
 
 # 用第三方软件包替换当前源码库中的已有的同名软件包
 # rm -rf package/lean/{samba4,luci-app-samba4,luci-app-ttyd}
-rm -rf package/lean/luci-theme-argon
-git clone https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
