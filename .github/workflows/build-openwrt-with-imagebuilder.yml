@@ -47,10 +47,10 @@ on:
       openwrt_kernel:
         description: "Select kernel version"
         required: false
-        default: "5.4.210_5.10.135_5.15.50_5.19.1"
+        default: "5.15.50_5.19.1"
         type: choice
         options:
-          - 5.4.210_5.10.135_5.15.50_5.19.1
+          - 5.4.210_5.10.135_5.15.50
           - 5.4.210_5.10.135
           - 5.10.135_5.15.50
           - 5.15.50_5.19.1
@@ -106,7 +106,7 @@ jobs:
 
       - name: Build OpenWrt firmware
         if: steps.imagebuilder.outputs.status == 'success' && !cancelled()
-        uses: ophub/amlogic-s9xxx-openwrt@main
+        uses: 00575/amlogic-openwrt@main
         with:
           openwrt_path: openwrt/bin/targets/*/*/*rootfs.tar.gz
           openwrt_soc: ${{ github.event.inputs.openwrt_soc }}
