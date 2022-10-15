@@ -1,9 +1,3 @@
-#=====================================================================================
-# https://github.com/ophub/amlogic-s9xxx-openwrt
-# Description: Build OpenWrt with lede
-# Source code repository: https://github.com/coolsnowwolf/lede / Branch: master
-#=====================================================================================
-
 name: Build OpenWrt with lede
 
 on:
