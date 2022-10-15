@@ -1,9 +1,3 @@
-#=====================================================================================
-# https://github.com/ophub/amlogic-s9xxx-openwrt
-# Description: Build OpenWrt with official
-# Source code repository: https://github.com/openwrt/openwrt / Branch: master
-#=====================================================================================
-
 name: Build OpenWrt with official
 
 on:
