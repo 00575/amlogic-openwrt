@@ -29,6 +29,32 @@ echo "DISTRIB_SOURCECODE='lede'" >>package/base-files/files/etc/openwrt_release
 #
 # ------------------------------- Main source ends -------------------------------
 
+##FQ全部调到VPN菜单
+sed -i 's/services/vpn/g' package/feeds/00575/luci-app-ssr-plus/luasrc/controller/*.lua
+sed -i 's/services/vpn/g' package/feeds/00575/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/*.lua
+sed -i 's/services/vpn/g' package/feeds/00575/luci-app-ssr-plus/luasrc/view/shadowsocksr/*.htm
+
+sed -i 's/services/vpn/g' package/feeds/00575/luci-app-passwall/luasrc/controller/*.lua
+sed -i 's/services/vpn/g' package/feeds/00575/luci-app-passwall/luasrc/model/cbi/passwall/api/*.lua
+sed -i 's/services/vpn/g' package/feeds/00575/luci-app-passwall/luasrc/model/cbi/passwall/client/*.lua
+sed -i 's/services/vpn/g' package/feeds/00575/luci-app-passwall/luasrc/model/cbi/passwall/server/*.lua
+sed -i 's/services/vpn/g' package/feeds/00575/luci-app-passwall/luasrc/view/passwall/app_update/*.htm
+sed -i 's/services/vpn/g' package/feeds/00575/luci-app-passwall/luasrc/view/passwall/global/*.htm
+sed -i 's/services/vpn/g' package/feeds/00575/luci-app-passwall/luasrc/view/passwall/haproxy/*.htm
+sed -i 's/services/vpn/g' package/feeds/00575/luci-app-passwall/luasrc/view/passwall/log/*.htm
+sed -i 's/services/vpn/g' package/feeds/00575/luci-app-passwall/luasrc/view/passwall/node_list/*.htm
+sed -i 's/services/vpn/g' package/feeds/00575/luci-app-passwall/luasrc/view/passwall/rule/*.htm
+sed -i 's/services/vpn/g' package/feeds/00575/luci-app-passwall/luasrc/view/passwall/server/*.htm
+
+sed -i 's/services/vpn/g' package/feeds/00575/luci-app-vssr/luasrc/controller/*.lua
+sed -i 's/services/vpn/g' package/feeds/00575/luci-app-vssr/luasrc/model/cbi/vssr/*.lua
+sed -i 's/services/vpn/g' package/feeds/00575/luci-app-vssr/luasrc/view/vssr/*.htm
+
+sed -i 's/services/vpn/g' package/feeds/00575/luci-app-openclash/luasrc/controller/*.lua
+sed -i 's/services/vpn/g' package/feeds/00575/luci-app-openclash/luasrc/*.lua
+sed -i 's/services/vpn/g' package/feeds/00575/luci-app-openclash/luasrc/model/cbi/openclash/*.lua
+sed -i 's/services/vpn/g' package/feeds/00575/luci-app-openclash/luasrc/view/openclash/*.htm
+
 # ------------------------------- Other started -------------------------------
 #
 # Add luci-app-amlogic
