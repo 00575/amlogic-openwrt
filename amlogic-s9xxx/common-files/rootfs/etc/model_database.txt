@@ -18,6 +18,7 @@
 115:Q96-mini:s905l-b:meson-gxl-s905x-p212.dtb:u-boot-s905x-s912.bin:NA:NA:1G/8G,100Mb Nic:meson-gxl:s905l-b:no
 116:CM311-1/HG680-LC:s905l3:meson-gxl-s905l2-x7-5g.dtb:u-boot-p212.bin:NA:NA:4C@1908Mhz,2+8G,100Mb Nic:meson-gxl:s905l3:no
 117:E900V22E:s905l3b:meson-gxl-s905l3b-e900v22e.dtb:u-boot-s905x-s912.bin:NA:NA:4C@1908Mhz,2+8G,100Mb Nic:meson-gxl:s905l3b:no
+118:BesTV-R3300L:s905l-b:meson-gxl-s905x-p212.dtb:u-boot-r3300l.bin:/lib/u-boot/r3300l-u-boot.bin.sd.bin:NA:4C@1908Mhz,2+8G,100Mb Nic:meson-gxl:s905lb-r3300l:yes
 
 # Amlogic GXM Family
 201:Octopus-Planet:s912:meson-gxm-octopus-planet.dtb:u-boot-zyxq.bin:NA:NA:4C@1512Mhz+4C@1000Mhz,2GB Mem,1Gb Nic:meson-gxm:s912:yes
@@ -44,10 +45,10 @@
 306:M401A/ZTE-B863AV3.2-M:s905l3a:meson-g12a-s905l3a-m401a.dtb:u-boot-e900v22c.bin:NA:NA:4C@1908Mhz,2+16G,100Mb Nic:meson-g12a:s905l3a:no
 
 # Amlogic G12B Family
-401:Beelink-GT-King:s922x:meson-g12b-gtking.dtb:u-boot-gtking.bin:/lib/u-boot/gtking-u-boot.bin.sd.bin:NA:2C@1800Mhz(A53)+4C@1908Mhz(A73),4GB Mem,1Gb Nic,brcm4356 wifi:meson-g12b:s922x:no
-402:Beelink-GT-King-Pro:s922x:meson-g12b-gtking-pro.dtb:u-boot-gtkingpro.bin:/lib/u-boot/gtkingpro-u-boot.bin.sd.bin:NA:2C@1800Mhz(A53)+4C@1908Mhz(A73),4GB Mem,1Gb Nic,brcm4356 wifi:meson-g12b:s922x:yes
-403:Beelink-GT-King-Pro-H:s922x:meson-g12b-gtking-pro-h.dtb:u-boot-gtkingpro.bin:/lib/u-boot/gtkingpro-u-boot.bin.sd.bin:NA:S922X-H,2C@1800Mhz(A53)+4C@2208Mhz(A73),4GB Mem,1Gb Nic,brcm4356 wifi:meson-g12b:s922x:no
-404:Beelink-GT-King-Pro-Rev_A:s922x:meson-g12b-gtking-pro-rev_a.dtb:u-boot-gtkingpro-rev-a.bin:NA:NA:2C@1800Mhz(A53)+4C@1908Mhz(A73),4GB Mem,1Gb Nic,brcm4356 wifi:meson-g12b:s922x-reva:yes
+401:GT-King:s922x:meson-g12b-gtking.dtb:u-boot-gtking.bin:/lib/u-boot/gtking-u-boot.bin.sd.bin:NA:2C@1800Mhz(A53)+4C@1908Mhz(A73),4GB Mem,1Gb Nic,brcm4356 wifi:meson-g12b:s922x:no
+402:GT-King-Pro/X88-King:s922x:meson-g12b-gtking-pro.dtb:u-boot-gtkingpro.bin:/lib/u-boot/gtkingpro-u-boot.bin.sd.bin:NA:2C@1800Mhz(A53)+4C@1908Mhz(A73),4GB Mem,1Gb Nic,brcm4356 wifi:meson-g12b:s922x:yes
+403:GT-King-Pro-H:s922x:meson-g12b-gtking-pro-h.dtb:u-boot-gtkingpro.bin:/lib/u-boot/gtkingpro-u-boot.bin.sd.bin:NA:S922X-H,2C@1800Mhz(A53)+4C@2208Mhz(A73),4GB Mem,1Gb Nic,brcm4356 wifi:meson-g12b:s922x:no
+404:GT-King-Pro-Rev_A:s922x:meson-g12b-gtking-pro-rev_a.dtb:u-boot-gtkingpro-rev-a.bin:NA:NA:2C@1800Mhz(A53)+4C@1908Mhz(A73),4GB Mem,1Gb Nic,brcm4356 wifi:meson-g12b:s922x-reva:yes
 405:Hardkernel-ODroid-N2:s922x:meson-g12b-odroid-n2.dtb:u-boot-gtkingpro.bin:/lib/u-boot/odroid-n2-u-boot.bin.sd.bin:NA:2C@1800Mhz(A53)+4C@1908Mhz(A73),4GB Mem,1Gb Nic:meson-g12b:s922x-n2:yes
 406:UGOOS-AM6-Plus:s922x:meson-g12b-ugoos-am6.dtb:u-boot-gtkingpro.bin:/lib/u-boot/gtkingpro-u-boot.bin.sd.bin:NA:2C@1800Mhz(A53)+4C@1908Mhz(A73),4GB Mem,1Gb Nic,brcm4398 wifi:meson-g12b:s922x:no
 407:Khadas-VIM3:a311d:meson-g12b-a311d-khadas-vim3.dtb:u-boot-gtkingpro.bin:/lib/u-boot/khadas-vim3-u-boot.sd.bin:NA:4C@2.2Ghz+2C@1.8Ghz,PCIe+USB 3.0,1Gb Nic,brcm4398 wifi:meson-g12b:a311d:yes
