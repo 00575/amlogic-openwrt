@@ -6,7 +6,7 @@
 103:HG680P:s905x:meson-gxl-s905x-p212.dtb:u-boot-p212.bin:NA:NA:4C@1512Mhz,100Mb Nic:meson-gxl:s905x:yes
 104:TX3-Mini:s905w:meson-gxl-s905w-tx3-mini.dtb:u-boot-s905x-s912.bin:NA:NA:4C@1512Mhz,100Mb Nic:meson-gxl:s905w:yes
 105:MECOOL-KI-Pro:s905d:meson-gxl-s905d-mecool-ki-pro.dtb:u-boot-p201.bin:NA:NA:2G/16G,1Gb Nic:meson-gxl:s905d-ki:yes
-106:T95:s905x:meson-gxl-s905x-p212.dtb:u-boot-s905x-s912.bin:NA:NA:2G/16G,1Gb Nic:meson-gxl:s905x-t95:yes
+106:T95:s905x:meson-gxl-s905x-p212.dtb:u-boot-s905x-s912.bin:NA:NA:2G/16G,1Gb Nic:meson-gxl:s905x-t95:no
 107:B860H:s905x:meson-gxl-s905x-b860h.dtb:u-boot-p212.bin:NA:NA:4C@1512Mhz,100Mb Nic:meson-gxl:s905x:no
 108:TBee:s905x:meson-gxl-s905x-tbee.dtb:u-boot-p212.bin:NA:NA:4C@1512Mhz,100Mb Nic:meson-gxl:s905x:no
 109:W95:s905w:meson-gxl-s905w-p281.dtb:u-boot-s905x-s912.bin:NA:NA:4C@1512Mhz,2GB RAM,16GB ROM,100Mb Nic,USB2.0:meson-gxl:s905w:no
@@ -27,7 +27,7 @@
 204:Tanix-TX92:s912:meson-gxm-octopus-planet.dtb:u-boot-zyxq.bin:NA:NA:3GB DDR4 32GB eMMC,1.5GHz,5G WIFI,1Gb Nic:meson-gxm:s912:no
 205:VORKE-Z6-Plus:s912:meson-gxm-octopus-planet.dtb:u-boot-zyxq.bin:NA:NA:3GB DDR3 32GB eMMC5.0,1.5Ghz,TF CARD Support 1~32GB,1Gb Nic:meson-gxm:s912:no
 206:MECOOL-M8S-Pro-L:s912:meson-gxm-q201.dtb:u-boot-s905x-s912.bin:NA:NA:2G RAM,3G RAM,16G ROM,32G ROM,100Mb Nic:meson-gxm:s912-m8s:yes
-207:T95Z-Plus:s912:meson-gxm-t95z-plus.dtb:u-boot-s905x-s912.bin:NA:NA:3G+32G,Octa-Core,2.4/5.8G Dual-Band WiFi,1Gb Nic:meson-gxm:s912-t95z-plus:yes
+207:T95Z-Plus:s912:meson-gxm-t95z-plus.dtb:u-boot-s905x-s912.bin:NA:NA:3G+32G,Octa-Core,2.4/5.8G Dual-Band WiFi,1Gb Nic:meson-gxm:s912-t95z-plus:no
 208:TX9-Pro(3G_32G_1Gb):s912:meson-gxm-tx9-pro.dtb:u-boot-zyxq.bin:NA:NA:4C@1512Mhz+4C@1000Mhz,3G RAM,32G ROM,Bluetooth 4.1,1Gb Nic,brcm43455 wifi:meson-gxm:s912:no
 209:TX9-Pro(2G_16G_100Mb):s912:meson-gxm-q201.dtb:u-boot-p212.bin:NA:NA:4C@1512Mhz+4C@1000Mhz,3G RAM,32G ROM,Bluetooth 4.1,100Mb Nic,RTL8189ETV wifi:meson-gxm:s912:no
 210:Nexbox-A1/A95X:s912:meson-gxm-nexbox-a1.dtb:u-boot-p212.bin:NA:NA:2G DDR3 RAM 16G eMMC,1Gb Nic,qca9377 wifi(no work):meson-gxm:s912:no
